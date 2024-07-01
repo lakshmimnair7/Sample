@@ -9,3 +9,6 @@ package finalkeyword;
 }
 
 */
+
+// final class cannot be inherited, final class will not be a subclass of another class,final keyword will not support.
+//final method cannot override but can inherited
