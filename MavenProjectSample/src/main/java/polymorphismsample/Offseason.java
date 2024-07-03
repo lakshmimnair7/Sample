@@ -2,12 +2,12 @@ package polymorphismsample;
 
 public class Offseason extends Onseason{
 	
-	double discount;
+	int price = 1000;
+	double discountrate;
 	public void discount() {
 		
-		
-		discount = price * 0.15;
-		System.out.println("Discount Rate is :" + discount);
+		discountrate = price * 0.15;
+		System.out.println("Discount Rate on Offseason is :" + discountrate);
 		super.discount();
 	}
 
