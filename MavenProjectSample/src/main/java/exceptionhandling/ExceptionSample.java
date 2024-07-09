@@ -11,9 +11,13 @@ public class ExceptionSample {
 		div = a/0;
 		System.out.println("Division is :" + div);
 		}
-		catch(Exception e)
+		catch(ArithmeticException e)
 		{
 			System.out.println("Division by zero not possible:" + e);
+		}
+		finally
+		{
+			System.out.println("Exception Handles Successfully");
 		}
 	}
 
