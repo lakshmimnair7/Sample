@@ -14,7 +14,7 @@ public class ExceptionSample {
 		catch(ArithmeticException e)
 		{
 			System.out.println("Division by zero not possible:" + e);
-		}
+		} 
 		finally
 		{
 			System.out.println("Exception Handles Successfully");
